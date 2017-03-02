@@ -28,7 +28,7 @@ Shape can perform.
 ```java
 Shape shape = new Shape(2,2);
 Shape square = new Square(2,2);
-System.out.println(a.getArea() == b.getArea()); //true
+System.out.println(shape.area() == square.area()); //true
 ```
 
 Reference: https://dzone.com/articles/the-liskov-substitution-principle-with-examples
