@@ -1,7 +1,8 @@
 package codeguide;
 
 /**
- * Exercise for the Liskov Substitution Principle. 
+ * Exercise for the Liskov Substitution Principle. Take a look in the Shape
+ * class and the Rectangle class.
  * 
  * TODO Answer all of the TODO questions in the ANSWER comments.
  * 
