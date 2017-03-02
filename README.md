@@ -15,6 +15,8 @@ System.out.println(a+b);
 
 In this case, name is not being used so you need to remove it or the readers might wonder what name is being used for.
 
+Exercise: [Click here]https://github.com/Gotsira/codeguide/blob/master/src/codeguide/YAGNI.java
+
 Reference: http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 
 ##LSP (Liskov Substitution Principle)
