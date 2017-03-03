@@ -21,9 +21,8 @@ Reference: http://www.artima.com/weblogs/viewpost.jsp?thread=331531
 
 ##LSP (Liskov Substitution Principle)
 
-According to the Liskov Substitution Principle, functions that use references to base classes must be able to use objects of the derived
-class without knowing it. Suppose a class Square extends class Shape, the subclass Circle should be able to perform all the fuctions class
-Shape can perform.
+According to the Liskov Substitution Principle, *functions that use references to base classes must be able to use objects of the derived
+class without knowing it.* Suppose a class Square extends class Shape, the subclass Circle should be able to perform all the fuctions class Shape can perform.
 
 ```java
 Shape shape = new Shape(2,3);
