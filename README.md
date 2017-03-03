@@ -26,9 +26,10 @@ class without knowing it. Suppose a class Square extends class Shape, the subcla
 Shape can perform.
 
 ```java
-Shape shape = new Shape(2,2);
-Shape square = new Square(2,2);
-System.out.println(shape.area() == square.area()); //true
+Shape shape = new Shape(2,3);
+Shape rectangle = new Rectangle(2,3);
+System.out.println(shape.area() == rectangle.area()); //true
 ```
+Exercise: [Click here](https://github.com/Gotsira/codeguide/blob/master/src/codeguide/LSP.java)
 
 Reference: https://dzone.com/articles/the-liskov-substitution-principle-with-examples
