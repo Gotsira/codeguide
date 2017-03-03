@@ -1,7 +1,8 @@
 package codeguide;
 
 /**
- * Exercise for the Liskov Substitution Principle. 
+ * Exercise for the Liskov Substitution Principle. Take a look in the Shape
+ * class and the Rectangle class.
  * 
  * TODO Answer all of the TODO questions in the ANSWER comments.
  * 
@@ -12,15 +13,15 @@ package codeguide;
 public class LSP {
 	public static void main(String[] args) {
 		
-		// TODO Is it legal of not?
+		// TODO Is it legal of not? If incorrect, please correct the code.
 		Shape shape = new Shape(2 , 3);
 		// ANSWER
 	
-		//TODO Is it legal or not?
+		//TODO Is it legal or not? If incorrect, please correct the code.
 		Shape rectangle = new Rectangle(2 , 3);
 		// ANSWER
 		
-		//TODO Is it legal or not?
+		//TODO Is it legal or not? If incorrect, please correct the code.
 		Rectangle rectangle_2 = new Square(2 , 3);
 		// ANSWER
 		
